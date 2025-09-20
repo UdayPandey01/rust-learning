@@ -1,0 +1,14 @@
+[package]
+name = "fib_benchmark"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+
+[dev-dependencies]
+criterion = "0.4"
+
+[[bench]]
+name = "fib_bench"
+harness = false
